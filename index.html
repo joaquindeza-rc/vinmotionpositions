@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VinMotion — Open Positions</title>
+  <title>New Job Descriptions Analysis — VinMotion</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
@@ -33,6 +33,12 @@
     *{box-sizing:border-box;margin:0;padding:0;}
     html{scroll-behavior:smooth;}
     body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-height:100vh;overflow-x:hidden;}
+
+    /* VinMotion subtitle eyebrow */
+    .hero-eyebrow-vm{font-family:'Rajdhani',sans-serif;font-size:12px;font-weight:600;
+      letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted);
+      margin-bottom:16px;display:flex;align-items:center;gap:10px;}
+    .hero-eyebrow-vm::before{content:'>';color:var(--orange);}
 
     /* ── HERO ── */
     .hero{position:relative;overflow:hidden;padding-bottom:0;}
@@ -351,9 +357,10 @@
   </nav>
 
   <div class="hero-body">
-    <div class="hero-h1">VinMotion</div>
-    <div class="hero-h1-sub">Open Positions</div>
-    <p class="hero-sub">A complete map of all active roles across 8 departments — skills, technologies, and hiring priorities.</p>
+    <div class="hero-eyebrow-vm">VinMotion · Q3 2025</div>
+    <div class="hero-h1">New Job Descriptions</div>
+    <div class="hero-h1-sub">Analysis</div>
+    <p class="hero-sub">A complete analysis of VinMotion's active roles across 8 departments — skills, technologies, and hiring priorities mapped for the talent team.</p>
     <div class="hero-stats">
       <div class="hero-stat"><strong id="stat-roles">41</strong><label>Open Roles</label></div>
       <div class="hero-stat"><strong>8</strong><label>Departments</label></div>
